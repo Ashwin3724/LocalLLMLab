@@ -1,6 +1,7 @@
 # LocalLLMLab — Local Model Benchmark
 
-Preview image is included in encoded form; run `python restore_assets.py` to restore `docs/screenshot.png` locally.
+![LocalLLMLab application screenshot](docs/screenshot.png)
+
 A small local benchmarking dashboard for comparing **two Ollama model tags** on six fictional support-message classification cases. It records JSON validity, exact-match task outcomes, per-case wall time and, when Ollama provides it, generation throughput. It does not train or quantize models, prove one model is generally better, or measure RAM. The project does not bundle Ollama or any model weights.
 
 > **Live inference was not tested in the development environment.** Automated tests and a browser integration test used a fake Ollama server. Real model behavior, availability, latency, memory requirements and compatibility must be tested on your own computer.
